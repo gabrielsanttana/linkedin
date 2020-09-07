@@ -1,14 +1,14 @@
-import React from "react";
-import GlobalStyles from "./styles/GlobalStyles";
+import React from 'react';
+import Homepage from './pages/Homepage';
+import GlobalStyles from './styles/GlobalStyles';
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      <h1>Rocketseat</h1>
-
+      <Homepage />
       <GlobalStyles />
     </>
   );
-}
+};
 
 export default App;
