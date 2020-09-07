@@ -2,7 +2,7 @@ import React from 'react';
 
 import Panel from '../../Panel';
 
-import { Container } from './styles';
+import {Container} from './styles';
 
 const TrendingPanel: React.FC = () => {
   return (

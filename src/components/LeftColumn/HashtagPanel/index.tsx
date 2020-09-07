@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Panel from '../../Panel';
-
 import {Container, HashtagIcon} from './styles';
 
 const tags = ['rocketseat', 'next-level', 'node', 'react', 'developer'];
