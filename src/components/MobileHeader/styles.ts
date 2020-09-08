@@ -8,10 +8,11 @@ export const Container = styled.header`
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-link);
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 5;
 
   @media only screen and (min-width: 1180px) {
     display: none;
