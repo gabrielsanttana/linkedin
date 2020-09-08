@@ -51,6 +51,13 @@ export const SearchInput = styled.input`
   background-color: var(--color-input);
   color: var(--color-black);
   border: 0;
+  outline: 0;
+  border-radius: 2px;
+  padding: 7.5px 8px;
+
+  &:focus {
+    background-color: var(--color-white);
+  }
 `;
 
 export const RightComponent = styled.div`
