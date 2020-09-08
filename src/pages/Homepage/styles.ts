@@ -13,7 +13,7 @@ export const Container = styled.div`
     main {
       display: flex;
       justify-content: center;
-      margin: 0 30px;
+      margin: 50px 30px 0;
 
       .left-column,
       .right-column {

@@ -47,6 +47,8 @@ export const LinkedinIcon = styled(GrLinkedin)`
 `;
 
 export const SearchInput = styled.input`
+  width: 282px;
+  height: 34px;
   margin-left: 12px;
   background-color: var(--color-input);
   color: var(--color-black);
@@ -54,6 +56,10 @@ export const SearchInput = styled.input`
   outline: 0;
   border-radius: 2px;
   padding: 7.5px 8px;
+
+  &::placeholder {
+    font-size: 14px;
+  }
 
   &:focus {
     background-color: var(--color-white);
@@ -116,4 +122,6 @@ export const ProfileCircle = styled.img`
 export const CaretDownIcon = styled(AiFillCaretDown)`
   width: 16px;
   height: 16px;
+  position: relative;
+  top: 1px;
 `;
