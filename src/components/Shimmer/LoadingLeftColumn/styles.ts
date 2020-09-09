@@ -15,7 +15,7 @@ export const Container = styled.div`
       padding-bottom: 175px;
 
       .avatar-skeleton {
-        z-index: 5;
+        z-index: 2;
         width: 72px;
         height: 72px;
         border-radius: 50%;

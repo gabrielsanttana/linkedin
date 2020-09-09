@@ -11,7 +11,7 @@ export default styled.div`
   animation: shimmer 1.2s ease-in-out infinite;
 
   &.white {
-    background-image: linear-gradient(-90deg, #fff 0%, #e7edf1 50%);
+    background-image: linear-gradient(-90deg, #fff 0%, #e7edf1 50%, #fff 100%);
   }
 
   @keyframes shimmer {
