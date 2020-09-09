@@ -6,7 +6,7 @@
 
 <img src="./.github/homepage-skeleton.png" />
 
-<p align="center">💼 A clone of Linkedin's homepage with shimmer effect</p>
+<p align="center">💼 A clone of Linkedin's homepage with shimmer loading effect</p>
 
 ## 🛠️ Technologies
 
